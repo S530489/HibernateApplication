@@ -1,0 +1,13 @@
+package com.sai.testapp;
+
+import org.hibernate.cfg.Configuration;
+
+public class testapp {
+
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+		cfg.configure();
+
+	}
+
+}
